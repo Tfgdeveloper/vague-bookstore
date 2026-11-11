@@ -3,13 +3,14 @@ import { Link, useParams } from "react-router-dom";
 import { motion, useReducedMotion } from "framer-motion";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import Hero from "../components/Hero";
-import FeaturedBook from "../components/FeaturedBook";
+
 import QuoteNewsletter from "../components/QuoteNewsletter";
 import { BookCard } from "../components/BookCard";
 import { SectionHeading, Description } from "../components/ui/typography";
 import { buttonClasses } from "../components/ui/button";
 import { genrePath, getBooksByGenre, getGenrePage, getSubgenresWithBooks } from "../data/books";
 import { NotFound } from "../lib/pageHelpers";
+import FeaturedBook from "../components/Featuredbook";
 
 /* ==================================================================
    One page for every genre and sub-genre:
