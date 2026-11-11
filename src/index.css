@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-button: "Montserrat", sans-serif;
+}
+
+:root {
+  --font-body: "Poppins", sans-serif;
+  --font-heading: "Playfair Display", serif;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+
+
+}
+
+.gradient-background {
+  background: linear-gradient(to right, #641C24, #171717);
+}
+.background{
+  background-color: #EBE4DA;
+}
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  font-family: var(--font-button);
+}
